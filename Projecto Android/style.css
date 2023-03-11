@@ -1,0 +1,154 @@
+                @charset "UTF-8";
+                 :root {
+                    --cor0: #c5ebd6;
+                    --cor1: #b0ebb8;
+                    --cor2: #3dde84;
+                    --cor3: #2fa866;
+                    --cor4: #1a5c37;
+                    --cor5: #032914;
+                    --fonte-padrão: arial, verdana, helvetica, sans-serif;
+                }
+                
+                body {
+                    background-color: var(--cor0);
+                    font-family: var(--fonte-padrão);
+                }
+                
+                main p {
+                    margin: 15px 0px 15px 0px;
+                    text-align: justify;
+                    text-indent: 30px;
+                    line-height: 2em;
+                    font-size: 1em;
+                }
+                
+                header {
+                    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+                    height: 150px;
+                    text-align: center;
+                    padding-top: 40px;
+                }
+                
+                header>h1 {
+                    color: white;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    text-shadow: 2px 2px 0px black;
+                }
+                
+                header>p {
+                    color: white;
+                    font-weight: bolder;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 1.2em;
+                    text-shadow: 2px 2px 0px black;
+                }
+                
+                nav {
+                    background-color: var(--cor5);
+                    padding: 10px;
+                }
+                
+                nav a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                }
+                
+                nav>a:hover {
+                    background-color: var(--cor2);
+                }
+                
+                main {
+                    min-width: 300px;
+                    max-width: 1000px;
+                    background-color: white;
+                    margin: auto;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    margin-bottom: 20px;
+                    padding: 20px;
+                }
+                
+                main h1 {
+                    color: var(--cor4);
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+                
+                main h2 {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: var(--cor4);
+                }
+                
+                main img {
+                    width: 100%;
+                }
+                
+                aside {
+                    background-color: var(--cor1);
+                    padding: 10px;
+                    border-radius: 10px;
+                    box-shadow: 3px 3px 8px rgb(27, 27, 27);
+                }
+                
+                aside>ul {
+                    list-style-position: inside;
+                    columns: 2;
+                }
+                
+                aside h3 {
+                    background-color: var(--cor4);
+                    color: white;
+                    padding: 10px;
+                    margin: -10px -10px 0px -10px;
+                    border-radius: 10px 10px 0px 0px;
+                }
+                
+                footer {
+                    background-color: var(--cor5);
+                    color: white;
+                    text-align: center;
+                    padding: 5px;
+                    font-size: 0.em;
+                }
+                
+                footer a {
+                    color: white;
+                    font-weight: bolder;
+                    text-decoration: none;
+                }
+                
+                footer a:hover {
+                    text-decoration: underline;
+                    color: var(--cor1);
+                }
+                
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                main img.help.JPG {
+                    max-width: 100px;
+                }
+                
+                main a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: var(--cor5);
+                    background-color: var(--cor0);
+                    padding: 2px 6px;
+                }
+                
+                main a:hover {
+                    text-decoration: underline;
+                    color: var(--cor2);
+                }
+                
+                div.video {
+                    background-color: var(--cor5);
+                    text-align: center;
+                    width: 100%;
+                }
